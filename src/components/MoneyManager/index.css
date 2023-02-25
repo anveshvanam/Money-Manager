@@ -1,0 +1,153 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    align-items: flex-start;
+  }
+}
+
+.money-manager-card {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 20vh;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #334155;
+}
+
+.description {
+  color: #7e858e;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.span-description {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.money-details-card {
+  margin-bottom: 30px;
+}
+
+.lower-container {
+  height: 400px;
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .lower-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.lower-box-title {
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9px;
+  height: 400px;
+  width: 30vw;
+  margin: 15px;
+  border-color: #cbd5e1;
+  padding: 30px;
+}
+
+.history-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50vw;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9px;
+  height: 400px;
+  margin: 15px;
+  border-color: #cbd5e1;
+  padding: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .transaction-form {
+    width: 80vw;
+  }
+  .history-card {
+    width: 80vw;
+  }
+}
+
+.input {
+  margin-bottom: 15px;
+  padding: 6px;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.button {
+  width: 70px;
+  height: 45px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 6px;
+  background-color: #0b69ff;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.box {
+  border: 1px solid #cbd5e1;
+  height: 6vh;
+  padding: 0px;
+  width: 100%;
+}
+
+.headings {
+  width: 75%;
+  display: flex;
+  height: 6vh;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.label-input {
+  color: #cbd5e1;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.u-list {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
